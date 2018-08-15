@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="We felt that it had been essential to write a reserve reintroducing programming tactics that should be employed by software developers targeting the existing and future generation supercomputers. As">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How To Program Supercomputer">
+<meta property="og:url" content="http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/index.html">
+<meta property="og:site_name" content="Supercomputing Tech | Stefanie Powers Archives">
+<meta property="og:description" content="We felt that it had been essential to write a reserve reintroducing programming tactics that should be employed by software developers targeting the existing and future generation supercomputers. As">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://yoursite.com/images/3.jpg">
+<meta property="og:updated_time" content="2018-08-15T02:26:17.394Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How To Program Supercomputer">
+<meta name="twitter:description" content="We felt that it had been essential to write a reserve reintroducing programming tactics that should be employed by software developers targeting the existing and future generation supercomputers. As">
+<meta name="twitter:image" content="http://yoursite.com/images/3.jpg">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>How To Program Supercomputer</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/About.html">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/Gallery.html">Gallery</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2018/08/10/China-And-Japan-Supercomputer/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/2018/08/01/The-Linpack-Benchmark/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&text=How To Program Supercomputer"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&title=How To Program Supercomputer"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&is_video=false&description=How To Program Supercomputer"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=How To Program Supercomputer&body=Check out this article: http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&title=How To Program Supercomputer"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&title=How To Program Supercomputer"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&title=How To Program Supercomputer"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&title=How To Program Supercomputer"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&name=How To Program Supercomputer&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Your-Own-Supercomputer-in-the-Azure-Cloud"><span class="toc-number">1.</span> <span class="toc-text">Your Own Supercomputer in the Azure Cloud</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Topics-include"><span class="toc-number">1.1.</span> <span class="toc-text">Topics include:</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index my4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        How To Program Supercomputer
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Supercomputing Tech | Stefanie Powers Archives</span>
+      </span>
+      
+    <div class="postdate">
+        <time datetime="2018-08-06T01:30:00.000Z" itemprop="datePublished">2018-08-06</time>
+    </div>
+
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p><img src="/images/3.jpg" alt="Ai"></p>
+<p>We felt that it had been essential to write a reserve reintroducing programming tactics that should be employed by software developers targeting the existing and future generation supercomputers. As the techniques have been around for a long time, many of today’s developers are not aware of them. Let us explain.</p>
+<p>The supercomputer is a shifting target for application programmers since its inception in the form of Seymour Cray’s CDC 6600 in the first 1970s, forcing developers to adjust to new approaches together with the ever-changing hardware and software systems. This need of programmer adaptation is especially conspicuous in neuro-scientific high-effectiveness processing (HPC), where developers typically optimize for the prospective node architecture to squeeze out every previous ounce of available effectiveness. This continued through the CDC7600 and the vector-rich systems: Cray 1, Cray XMP, YMP, and C90.</p>
+<p>Then, the “Attack of the killer micros” in the 1990s threw everything right into a tizzy. With raising node counts, request developers possessed to consider PVM, and MPI, within their quest to parallelize their applications across the multitude of nodes comprising commodity off-the-shelf (COTS) chips without the vector instructions. As can be seen in Figure 1, the COTS chips acquired more rapidly as their clock routine time decreased between 1995 and 2010. Software developers no more had to be worried about the node architecture.</p>
+<p>With the advent of AVX256, AVX512, SVE, and GPUs in the last five years, vectors have begun to come back. More recently, many-core devices like Intel’s Knight’s Landing (KNL) in addition to fastened accelerators such as for example Nvidia’s type of GPUs required a re-examination of the application form to progress performance from the brand new, more-powerful nodes. Because the application could not really always be vectorized and parallelized instantly by the compiler, the application form developer had to do something.</p>
+<p>That something ranged from writing important kernels in particular programming models like CUDA for the Nvidia GPUs, to using compiler directives to greatly help the compiler translate the input user-level code into low-level vectorized code for the processors. In that case there was the issue of using those cores on the node / making a large number of threads for the GPU. Because jogging MPI across all the cores on and off the nodes proved helpful pretty much, the developers for the original multi core systems didn’t should get into parallelizing with shared recollection threads. Even so, threading on Nvidia accelerators was definitely required. OpenACC and OpenMP 4.5 were developed for a performance-portable solution for threading and vectorization for the GPU.</p>
+<p>Another revelation in different architectures is that memory space hierarchies have become more complex, especially if an application has a large memory space footprint. Knight’s Landing, together with nodes with fastened GPU accelerators, possess two levels of recollection which introduces new issues that must be tackled by programmers. Shape 2 shows the dissimilarities between the recollection hierarchies of KNL and the hosted GPU. If an application fits in to the high-speed memory, then it’ll enjoy excellent memory performance. Nevertheless, if the application form requires more memory, the info set must be managed to flow between the two within an efficient and timely approach.</p>
+<p>The last four to five years have already been a culture shock to those creators who insisted on productivity over performance. They are actually confronted with the serious task of properly utilizing these new strong nodes. If indeed they continue with all-MPI codes and do not perform the required conversion to multi-level parallel code (through vectorization and threading), their performance will be a function of merely the amount of cores on the node and the clock cycle. While the amount of cores on the node is certainly going up gradually, the clock rate of those cores is going down, leading to poor returns on latest hardware investments without software optimization.</p>
+<p>Our book Development for Hybrid Multi / Manycore MPP Devices discusses the architecture of the brand new nodes and programming techniques application developers may utilize to glean more performance. It’ll be extremely useful for all those developers who are now confronted with the significant challenge of getting increased effectiveness from the vector capacity for the node together with improved scaling over the increased amount of cores or threading for the GPU. The reserve also looks at the memory space hierarchy of the KNL and discusses many approaches for managing the data. Finally, the reserve looks to the near future, which is extra of the same in lots of ways: extra cores with wider vectors and also more technical memory hierarchies.</p>
+<p>If you’ll be at SC17 in Denver, be a part of us at Cray booth #625 for a good meet-the-author session at 2 p.m. on Tuesday, November 14. You can purchase a reserve at the CRC Press booth #811 for a 30% discount through the show.</p>
+<h2 id="Your-Own-Supercomputer-in-the-Azure-Cloud"><a href="#Your-Own-Supercomputer-in-the-Azure-Cloud" class="headerlink" title="Your Own Supercomputer in the Azure Cloud"></a>Your Own Supercomputer in the Azure Cloud</h2><p>Your organization depends on technology for a competitive advantage. You will need fast, reliable effectiveness. But high-performance computing can be a large expense, and challenging to manage in your IT infrastructure.</p>
+<p>Cray and Microsoft produce it easy - and you get Cray supercomputing found in the Microsoft Azure cloud.<br>This convergence of supercomputing capabilities and the ease of cloud management enables disruptive innovation for new types of companies. It alleviates the operations burden and reduces barriers of access to HPC.</p>
+<p>Supercomputing is no more out of grab smaller enterprises and corporations that can’t or don’t want to maintain their own datacenters.</p>
+<p>Intersect360 analyst Addison Snell says, the mixture of Cray’s systems and support capability, combined with access to Azure’s robust services, can go well beyond traditional IT resources and unlock possibilities that have been previously impossible because of scaling and performance limitations.</p>
+<h3 id="Topics-include"><a href="#Topics-include" class="headerlink" title="Topics include:"></a>Topics include:</h3><p><em>Market dynamics</em> - vertical industry distribution of HPC usage<br><em>Cray found in Azure</em> - differentiated capabilities, managing Cray in Azure, and expanding high-performance workloads<br><em>Research analysis</em> - searching toward AI, big data and HPC<br>He as well examines two industry tendencies: (1) big data and analytics, which inspire businesses to unlock the competitive positive aspects hiding unseen within their data; and (2) artificial cleverness (AI), fuelled by developments in equipment learning algorithms created by leading hyper scale processing companies such as for example Microsoft, Google, Facebook, and others.</p>
+<p>Just as big info swept through the IT landscape, many companies are actually launching investigations of how AI might help them automate techniques, improve responsiveness, and increase competitiveness.</p>
+<p>Download the full paper, “Azure Provides Clean On-Ramp to Cray Processing”, to find out more on today’s HPC and cloud landscape, and to find out how Cray in Azure could work for your enterprise.</p>
+
+  </div>
+</article>
+
+
+
+    </div>
+    
+      <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/About.html">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/Gallery.html">Gallery</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Your-Own-Supercomputer-in-the-Azure-Cloud"><span class="toc-number">1.</span> <span class="toc-text">Your Own Supercomputer in the Azure Cloud</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Topics-include"><span class="toc-number">1.1.</span> <span class="toc-text">Topics include:</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&text=How To Program Supercomputer"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&title=How To Program Supercomputer"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&is_video=false&description=How To Program Supercomputer"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=How To Program Supercomputer&body=Check out this article: http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&title=How To Program Supercomputer"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&title=How To Program Supercomputer"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&title=How To Program Supercomputer"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&title=How To Program Supercomputer"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://yoursite.com/2018/08/06/How-To-Program-Supercomputer/&name=How To Program Supercomputer&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+    
+    <footer id="footer">
+  <div class="footer-left">
+	
+    <p>
+      Find me on
+      
+      
+      
+        
+          <a class="icon" target="_blank" href="http://github.com/probberechts/cactus-dark">
+            <i class="fab fa-github"></i><!--
+      ---></a><!--
+    ---><!--
+    --->, 
+        
+      
+        
+          <a class="icon" target="_blank" href="/">
+            <i class="fab fa-twitter"></i><!--
+      ---></a><!--
+    ---><!--
+    --->, 
+        
+      
+        
+          <a class="icon" target="_blank" href="/">
+            <i class="fab fa-facebook"></i><!--
+      ---></a><!--
+    ---><!--
+    --->, 
+        
+      
+        
+          <a class="icon" target="_blank" href="/">
+            <i class="fab fa-linkedin"></i><!--
+      ---></a><!--
+    ---><!--
+    ---> and 
+        
+      
+        
+          <a class="icon" target="_blank" href="mailto:name@email.com">
+            <i class="fas fa-envelope"></i><!--
+      ---></a><!--
+      ---><!--
+    --->.
+        
+      
+    </p>
+  
+  
+    Copyright &copy; 2018 Supercomputing Tech | Stefanie Powers Archives
+  </div>
+  <div class="footer-right">  
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/About.html">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/Gallery.html">Gallery</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
+<!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+<!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+

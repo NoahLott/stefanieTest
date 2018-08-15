@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="As a yardstick of efficiency we are employing the `best’ effectiveness as measured by the LINPACK Benchmark. LINPACK was picked because it is trusted and performance quantities are available for virt">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Linpack Benchmark">
+<meta property="og:url" content="http://yoursite.com/2018/08/01/The-Linpack-Benchmark/index.html">
+<meta property="og:site_name" content="Supercomputing Tech | Stefanie Powers Archives">
+<meta property="og:description" content="As a yardstick of efficiency we are employing the `best’ effectiveness as measured by the LINPACK Benchmark. LINPACK was picked because it is trusted and performance quantities are available for virt">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://yoursite.com/images/7.jpg">
+<meta property="og:updated_time" content="2018-08-15T02:25:46.485Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="The Linpack Benchmark">
+<meta name="twitter:description" content="As a yardstick of efficiency we are employing the `best’ effectiveness as measured by the LINPACK Benchmark. LINPACK was picked because it is trusted and performance quantities are available for virt">
+<meta name="twitter:image" content="http://yoursite.com/images/7.jpg">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>The Linpack Benchmark</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/About.html">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/Gallery.html">Gallery</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2018/08/06/How-To-Program-Supercomputer/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/2018/07/27/Today-Super-Computer/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&text=The Linpack Benchmark"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&title=The Linpack Benchmark"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&is_video=false&description=The Linpack Benchmark"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=The Linpack Benchmark&body=Check out this article: http://yoursite.com/2018/08/01/The-Linpack-Benchmark/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&title=The Linpack Benchmark"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&title=The Linpack Benchmark"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&title=The Linpack Benchmark"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&title=The Linpack Benchmark"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&name=The Linpack Benchmark&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#The-Authors"><span class="toc-number">1.</span> <span class="toc-text">The Authors</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#HANS-WERNER-MEUER-1936-2014"><span class="toc-number">1.1.</span> <span class="toc-text">HANS WERNER MEUER (1936 - 2014)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ERICH-STROHMAIER’"><span class="toc-number">1.2.</span> <span class="toc-text">ERICH STROHMAIER’</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JACK-DONGARRA"><span class="toc-number">1.3.</span> <span class="toc-text">JACK DONGARRA</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index my4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        The Linpack Benchmark
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Supercomputing Tech | Stefanie Powers Archives</span>
+      </span>
+      
+    <div class="postdate">
+        <time datetime="2018-08-01T03:00:00.000Z" itemprop="datePublished">2018-08-01</time>
+    </div>
+
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p><img src="/images/7.jpg" alt="Ai"></p>
+<p>As a yardstick of efficiency we are employing the `best’ effectiveness as measured by the LINPACK Benchmark. LINPACK was picked because it is trusted and performance quantities are available for virtually all relevant systems.</p>
+<p>The LINPACK Benchmark was introduced by Jack Dongarra. An in depth description in addition to a list of performance outcomes on a wide variety of machines comes in postscript contact form from net-lib. Below you can download the most recent release of the LINPACK Article: efficiency.ps. A parallel execution of the Linpack benchmark and instructions how to run it.</p>
+<p>The benchmark found in the LINPACK Benchmark is to solve a dense system of linear equations. For the Top rated500, we used that type of the benchmark which allows an individual to scale how big is the problem also to optimize the software to be able to achieve the very best performance for confirmed machine. This performance does not reflect the overall efficiency of confirmed system, as no single number ever before can. It does, however, reflect the functionality of a committed program for solving a dense system of linear equations. Since the situation is quite regular, the overall performance achieved is fairly high, and the effectiveness numbers give a good correction of peak overall performance.</p>
+<p>By measuring some of the performance for different issue sizes n, a consumer can get not merely the maximal achieved effectiveness Rmax for the problem size Nmax but also the condition size N1/2 where half of the overall performance Rmax is achieved. These numbers alongside the theoretical peak functionality Rpeak are the figures given in the Leading500. In an attempt to obtain uniformity across all personal computers in effectiveness reporting, the algorithm used in solving the system of equations in the benchmark procedure must comply with LU factorization with partial pivoting. In particular, the procedure count for the algorithm should be 2/3 n^3 + O(n^2) dual precision floating point operations. This excludes the use of an easy matrix multiply algorithm like “Strassen’s Technique” or algorithms which compute a solution in a precision lower than full precision (64 bit floating point arithmetic) and refine the answer using an iterative strategy.</p>
+<p>As a yardstick of effectiveness we are employing the `best’ performance as measured by the LINPACK Benchmark. LINPACK was picked because it is trusted and performance quantities are available for virtually all relevant systems.</p>
+<p>The LINPACK Benchmark was introduced by Jack Dongarra. A detailed description in addition to a list of performance results on a wide variety of machines comes in postscript web form from net-lib.</p>
+<p>The benchmark found in the LINPACK Benchmark is to resolve a dense system of linear equations. For the Major500, we applied that edition of the benchmark which allows an individual to scale how big is the problem and to optimize the software so that you can achieve the very best performance for confirmed machine. This performance will not reflect the overall efficiency of confirmed system, as no number ever can. It does, however, reflect the overall performance of a devoted program for solving a dense program of linear equations. Since the situation is very regular, the functionality achieved is quite high, and the functionality numbers give a good correction of peak efficiency.</p>
+<p>By measuring the actual performance for different difficulty sizes n, a end user can get not merely the maximal achieved overall performance Rmax for the situation size Nmax but also the situation size N1/2 where half of the performance Rmax is achieved. These numbers together with the theoretical peak effectiveness Rpeak are the numbers given in the Top rated500. In an attempt to get hold of uniformity across all pcs in effectiveness reporting, the algorithm found in solving the machine of equations in the benchmark treatment must conform to LU factorization with partial pivoting. Specifically, the operation count for the algorithm must be 2/3 n^3 + O(n^2) dual precision floating point functions. This excludes the utilization of an easy matrix multiply algorithm like “Strassen’s Approach” or algorithms which compute a remedy in a precision lower than full precision (64 bit floating stage arithmetic) and refine the answer using an iterative way.</p>
+<h2 id="The-Authors"><a href="#The-Authors" class="headerlink" title="The Authors"></a>The Authors</h2><h3 id="HANS-WERNER-MEUER-1936-2014"><a href="#HANS-WERNER-MEUER-1936-2014" class="headerlink" title="HANS WERNER MEUER (1936 - 2014)"></a>HANS WERNER MEUER (1936 - 2014)</h3><p>In 1993, Hans Meuer started the TOP500 project together with Erich Strohmaier (previously at the University of Mannheim, currently at Lawrence Berkeley National Laboratory) and Jack Dongarra (University of Tennessee and ORNL). From 1976 until his retirement in 2000, Meuer was director of the processing center and professor for computer technology at the University of Mannheim, Germany. While at the university, Meuer was co-founder and organizer of the first of all Mannheim Supercomputer Seminar in 1986, an gross annual appointment referred to today as the International Supercomputing Meeting (ISC).Meuer features served as the Meeting General Chair since the very beginning. Since 1998, he has been managing director of Prometeus GmbH.</p>
+<p>The TOP500 list was created as a project for the June 1993 meeting in Mannheim, and updated for the Supercomputing 93 conference held that November. The list continues to be released at ISC every June and SC in November.</p>
+<p>Ahead of joining the University of Mannheim, Meuer served as specialist, task leader, group and department chief during his 11 years at the study Center in Julich,Germany, from 1962 - 73. Furthermore to his afore stated activities, Hans Meuer offers been editor-in-chief of the professional IT journal PIK - Praxis der Informationsverarbeitung und Kommunikation(published by KG Saur VerlagMunchen, Munich), from 1986 - 2004. He was a member of the professional societies ACM and GI. He posted numerous articles in the areas of mathematics, data processing and computer research.</p>
+<p>Meuer studied mathematics, physics and politics in the universities of Marburg, Giessen and Vienna. He graduated at the University of Giessen in 1962and in 1972, he received his doctorate in used mathematics from the Rheinisch Westfalischen Complex University (RWTH) of Aachen. </p>
+<p>Prof. Dr. Hans Werner Meuer passed on at the age of 77 at his residence in Daisbach, Southern Germany, on January 20, 2014, after a short battle with cancer.</p>
+<h3 id="ERICH-STROHMAIER’"><a href="#ERICH-STROHMAIER’" class="headerlink" title="ERICH STROHMAIER’"></a>ERICH STROHMAIER’</h3><p>Dealing with Prof. Hans Meuer, Erich Strohmaier created the primary Major500 list in June 1993. On his primary day at the brand new task at the University of Mannheim, he attended a tiny university conference, the “Mannheimer Supercomputer Seminar” organized by Meuer and Dr. Hans-Martin Wacker. One of is own duties while working for Prof. Meuer was to put together statistics on all over the world supercomputers in planning for the annual assembly of the meeting. Thinking it could be a one-time deal, Strohmaier created a data source on his pc for just that. But then Meuer and Strohmaier made a decision to see how much the list would switch in five a few months and recalculated the list in time to provide the effects at the 1993 Supercomputing meeting placed in November in Portland, Oregon. The Leading500 list of the world’s leading supercomputers was born.</p>
+<p>Strohmaier earned his Ph.D. in theoretical physics in 1990. Since his thesis centered on numerical strategies in elementary particle physics that he used the largest supercomputers obtainable, he accepted a study position in HPC at the University of Mannheim for a fresh project comparing the effectiveness of a number of physics applications on a Fujitsu VP2600 supercomputer. In 1995, as that exploration funding was closing, he decided to choose a position in the U.S. and ended up dealing with Linpack writer and fellow TOP500 editor Jack Dongarra, at the University of Tennessee. He relocated to Lawrence Berkeley National Laboratory in 2001. Furthermore to his current role as head into the future Technology Group at Berkeley Lab, he is also the principal investigator of the Department of Energy-funded CACHE Institute, a joint mathematics and computer system science institute centered on Interaction Avoiding and Interaction Hiding at Intensive Scales. In 2008, he was an associate of the staff which received the ACM Gordon Bell Prize for Algorithm Development.</p>
+<h3 id="JACK-DONGARRA"><a href="#JACK-DONGARRA" class="headerlink" title="JACK DONGARRA"></a>JACK DONGARRA</h3><p>Jack Dongarra has been involved because the origin and formation of the Major500 list in 1993, that used his Linpack benchmark seeing that the common request for evaluating the overall performance of supercomputers. Through the constant usage of the Linpack benchmark, the Major500 list offers a standardized measure of supercomputers over the past 25 years. Dongarra retains appointments at the University of Tennessee and Oak Ridge National Laboratory. He’s a Faculty Fellow at Texas A&amp;M University’s Institute for Advanced Analysis and Turing Fellow at the University of Manchester. He’s also an Adjunct Professor at Rice University. He specializes in numerical algorithms in linear algebra, parallel computing, use of advanced-computer system architectures, programming methodology, and tools for parallel personal computers. </p>
+<p>Furthermore to Linpack and the TOP500, Dongarra has contributed to the look and implementation of the following open source software packages and devices: EISPACK, the BLAS, LAPACK, ScaLAPACK, Net-lib, PVM, MPI, Open-MPI, NetSolve, ATLAS, PAPI, PLASMA, and MAGMA. He has published approximately 200 articles, papers, studies and specialized memoranda and he’s co-author of several literature. He was awarded the IEEE Sid Fernbach Award in 2004 for his contributions in the use of powerful computers using innovative techniques; in 2008 he was the recipient of the primary IEEE Medal of Excellence in Scalable Computing; in 2010 2010 he was the earliest recipient of the SIAM Particular Fascination Group on Supercomputer’s award for Job Achievement; and in 2011 he was the recipient of the IEEE IPDPS 2011 Charles Babbage Award. He is a Fellow of the AAAS, ACM, IEEE, and SIAM and a member of the National Academy of Engineering. Dongarra provides been an ISC Fellow since 2012.</p>
+<p>Dongarra received a Bachelor of Science found in Mathematics from Chicago Condition University found in 1972 and a Expert of Science in Pc Technology from the Illinois Institute of Technology found in 1973. He received his Ph.D. in Applied Mathematics from the University of New Mexico in 1980. He worked at the Argonne National Laboratory until 1989, learning to be a senior scientist. He’s the director of the Impressive Processing Laboratory at the University of Tennessee.</p>
+
+  </div>
+</article>
+
+
+
+    </div>
+    
+      <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/About.html">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/Gallery.html">Gallery</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#The-Authors"><span class="toc-number">1.</span> <span class="toc-text">The Authors</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#HANS-WERNER-MEUER-1936-2014"><span class="toc-number">1.1.</span> <span class="toc-text">HANS WERNER MEUER (1936 - 2014)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ERICH-STROHMAIER’"><span class="toc-number">1.2.</span> <span class="toc-text">ERICH STROHMAIER’</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JACK-DONGARRA"><span class="toc-number">1.3.</span> <span class="toc-text">JACK DONGARRA</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&text=The Linpack Benchmark"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&title=The Linpack Benchmark"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&is_video=false&description=The Linpack Benchmark"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=The Linpack Benchmark&body=Check out this article: http://yoursite.com/2018/08/01/The-Linpack-Benchmark/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&title=The Linpack Benchmark"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&title=The Linpack Benchmark"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&title=The Linpack Benchmark"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&title=The Linpack Benchmark"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://yoursite.com/2018/08/01/The-Linpack-Benchmark/&name=The Linpack Benchmark&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+    
+    <footer id="footer">
+  <div class="footer-left">
+	
+    <p>
+      Find me on
+      
+      
+      
+        
+          <a class="icon" target="_blank" href="http://github.com/probberechts/cactus-dark">
+            <i class="fab fa-github"></i><!--
+      ---></a><!--
+    ---><!--
+    --->, 
+        
+      
+        
+          <a class="icon" target="_blank" href="/">
+            <i class="fab fa-twitter"></i><!--
+      ---></a><!--
+    ---><!--
+    --->, 
+        
+      
+        
+          <a class="icon" target="_blank" href="/">
+            <i class="fab fa-facebook"></i><!--
+      ---></a><!--
+    ---><!--
+    --->, 
+        
+      
+        
+          <a class="icon" target="_blank" href="/">
+            <i class="fab fa-linkedin"></i><!--
+      ---></a><!--
+    ---><!--
+    ---> and 
+        
+      
+        
+          <a class="icon" target="_blank" href="mailto:name@email.com">
+            <i class="fas fa-envelope"></i><!--
+      ---></a><!--
+      ---><!--
+    --->.
+        
+      
+    </p>
+  
+  
+    Copyright &copy; 2018 Supercomputing Tech | Stefanie Powers Archives
+  </div>
+  <div class="footer-right">  
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/About.html">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/Gallery.html">Gallery</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
+<!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+<!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+

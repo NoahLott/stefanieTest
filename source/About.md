@@ -1,0 +1,7 @@
+**History**
+
+![Ai](/images/logo.png)
+
+Since Aug 2010, we continue steadily to build in our strength in powerful processing by fusing supercomputing, storage space and data analysis technologies. Merely a few years ago, computers with more than one processor primary were rare. Today, virtually all computers being sold contain at least two processor cores, and several computer systems have four or even more cores. As programmers, it really is our goal to proficiently use each of the computing resources available in order to fulfil and even delight the persons who use our courses. Age parallel hardware is upon us, and it is our work to use that hardware to be able to to successful parallel computing.
+
+A good supercomputer is a pc that performs at or near the currently highest operational fee for computers.  Traditionally, supercomputers have been employed for scientific and engineering applications that has to handle very large databases or do a great deal of computation (or both). Although improvements like multi-main processors and GPGPUs (general-purpose graphics processing systems) have enabled powerful machines for personal use (check out: desktop supercomputer, GPU supercomputer), by description, a supercomputer is remarkable with regards to performance.
