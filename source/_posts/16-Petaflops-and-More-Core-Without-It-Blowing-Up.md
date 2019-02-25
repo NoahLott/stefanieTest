@@ -1,16 +1,18 @@
 ---
 title: 16 Petaflops and More Core Without It Blowing Up 
-date: 2018-8-13 13:20:00
-category: Supercomputer Programming
+date: 2010-8-13 13:20:00
+category: programming
 ---
 
-![Ai](/images/4.jpg)
+![](/images/4.jpg)
 
 ## With 16 petaflops and 1.6M cores, DOE supercomputer is world's fastest
 
 Every six months, Earth's most important supercomputers have a huge race to see that may lay claim to getting the world's most effective high-performance computing cluster.
 
 In the most recent Top 500 Supercomputer Sites list unveiled Monday morning hours, a newly assembled cluster constructed with IBM hardware at the Department of Energy's Lawrence Livermore National Laboratory (LLNL) takes the most notable prize. Its speed? An impressive 16.32 petaflops, or 16 thousand trillion calculations per second. With 96 racks, 98,304 compute nodes, 1.6 million cores, and 1.6 petabytes of memory across 4,500 square feet, the IBM Blue Gene/Q system installed at LLNL overtakes the 10-petaflop, 705,000-core computer in Japan's RIKEN Advanced Institute for Computational Research.
+
+<!-- more -->
 
 The Japanese computer have been world's quickest twice in a row. Before that, the most notable spot happened by a Chinese program. The DOE pc, named "Sequoia", was sent to LLNL between January and April. It is the first US system to be ranked #1 since November 2009.
 

@@ -1,8 +1,0 @@
-![Ai](/images/1.jpg)
-![Ai](/images/2.jpg)
-![Ai](/images/3.jpg)
-![Ai](/images/4.jpg)
-![Ai](/images/5.jpg)
-![Ai](/images/6.jpg)
-![Ai](/images/7.jpg)
-![Ai](/images/8.jpg)

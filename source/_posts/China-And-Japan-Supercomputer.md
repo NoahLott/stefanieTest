@@ -1,10 +1,10 @@
 ---
 title: China And Japan Supercomputer
-date: 2018-8-10 10:00:00
-category: Definition and History Supercomputer
+date: 2012-3-10 10:00:00
+category: supercomputer
 ---
 
-![Ai](/images/2.jpg)
+![](/images/2.jpg)
 
 ## Supercomputer slowdown: World's quickest system sees zero new challengers
 
@@ -15,6 +15,8 @@ The group that measures the world's Top 500 most effective supercomputers hasn't
 Tianhe-2, of China's National Super Computer Center, overran the top spot in June 2013 with a measured speed of 33.86 petaflop/s, and it held on to #1 in both November 2013 list and the June 2014 list released yesterday.
 
 The follow-up to Tianhe-1A, Tianhe-2 uses Ivy Bridge-based Intel Xeons and Intel Xeon Phi for a total of 3.12 million cores. The computer uses 17,808 kilowatts of ability for 1.9 gigaflop/s per watt and will theoretically hit speeds of up to 54.9 petaflops.
+
+<!-- more -->
 
 A system maintaining the #1 place three times found in a row isn't unprecedented: IBM's US-based Roadrunner, the first petaflop equipment, won three right titles from June 2008 to June 2009. But in the hottest list, the very best nine machines are similar to those from half a year ago. And even underneath of the most notable 500 is seeing significantly less turnover and growth than usual.
 

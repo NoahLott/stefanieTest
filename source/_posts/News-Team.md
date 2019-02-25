@@ -1,7 +1,7 @@
 ---
 title: News Team
-date: 2018-7-16 10:20:00
-category: Next Generation
+date: 2017-10-16 10:20:00
+category: news
 ---
 
 ![Ai](/images/8.jpg)
@@ -22,6 +22,8 @@ Martin Meuer may be the ISC Conference Standard Co-Chair and Managing Director o
 ### Thomas Meuer, Publisher
 
 Thomas Meuer may be the ISC Conference Standard Co-Chair and Managing Director of ISC Group since 2014. From 2007 - 2014, he was the company's economic director. He keeps a graduate degree running a business Administration from the University of Mannheim and is a Certified Information Devices Auditor (CISA). Ahead of signing up for ISC Group, Thomas put in over a decade in IT Protection, Consulting, Finance and Risk Supervision in a variety of multinational companies, serving last but not least as an IT Audit Manager at KPMG in Berlin.
+
+<!-- more -->
 
 ## SALES & MARKETING
 

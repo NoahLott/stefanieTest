@@ -1,16 +1,18 @@
 ---
 title: How To Program Supercomputer
-date: 2018-8-06 09:30:00
-category: Supercomputer Programming
+date: 2014-4-06 09:30:00
+category: programming
 ---
 
-![Ai](/images/3.jpg)
+![](/images/3.jpg)
 
 We felt that it had been essential to write a reserve reintroducing programming tactics that should be employed by software developers targeting the existing and future generation supercomputers. As the techniques have been around for a long time, many of today's developers are not aware of them. Let us explain.
 
 The supercomputer is a shifting target for application programmers since its inception in the form of Seymour Cray's CDC 6600 in the first 1970s, forcing developers to adjust to new approaches together with the ever-changing hardware and software systems. This need of programmer adaptation is especially conspicuous in neuro-scientific high-effectiveness processing (HPC), where developers typically optimize for the prospective node architecture to squeeze out every previous ounce of available effectiveness. This continued through the CDC7600 and the vector-rich systems: Cray 1, Cray XMP, YMP, and C90.
 
 Then, the "Attack of the killer micros" in the 1990s threw everything right into a tizzy. With raising node counts, request developers possessed to consider PVM, and MPI, within their quest to parallelize their applications across the multitude of nodes comprising commodity off-the-shelf (COTS) chips without the vector instructions. As can be seen in Figure 1, the COTS chips acquired more rapidly as their clock routine time decreased between 1995 and 2010. Software developers no more had to be worried about the node architecture.
+
+<!-- more -->
 
 With the advent of AVX256, AVX512, SVE, and GPUs in the last five years, vectors have begun to come back. More recently, many-core devices like Intel's Knight's Landing (KNL) in addition to fastened accelerators such as for example Nvidia's type of GPUs required a re-examination of the application form to progress performance from the brand new, more-powerful nodes. Because the application could not really always be vectorized and parallelized instantly by the compiler, the application form developer had to do something.
 

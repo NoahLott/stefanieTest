@@ -1,17 +1,18 @@
 ---
 title: The Linpack Benchmark
-date: 2018-8-01 11:00:00
-category: Next Gen
+date: 2018-2-01 11:00:00
+category: news
 ---
 
-![Ai](/images/7.jpg)
-
+![](/images/7.jpg)
 
 As a yardstick of efficiency we are employing the `best' effectiveness as measured by the LINPACK Benchmark. LINPACK was picked because it is trusted and performance quantities are available for virtually all relevant systems.
 
 The LINPACK Benchmark was introduced by Jack Dongarra. An in depth description in addition to a list of performance outcomes on a wide variety of machines comes in postscript contact form from net-lib. Below you can download the most recent release of the LINPACK Article: efficiency.ps. A parallel execution of the Linpack benchmark and instructions how to run it.
 
 The benchmark found in the LINPACK Benchmark is to solve a dense system of linear equations. For the Top rated500, we used that type of the benchmark which allows an individual to scale how big is the problem also to optimize the software to be able to achieve the very best performance for confirmed machine. This performance does not reflect the overall efficiency of confirmed system, as no single number ever before can. It does, however, reflect the functionality of a committed program for solving a dense system of linear equations. Since the situation is quite regular, the overall performance achieved is fairly high, and the effectiveness numbers give a good correction of peak overall performance.
+
+<!-- more -->
 
 By measuring some of the performance for different issue sizes n, a consumer can get not merely the maximal achieved effectiveness Rmax for the problem size Nmax but also the condition size N1/2 where half of the overall performance Rmax is achieved. These numbers alongside the theoretical peak functionality Rpeak are the figures given in the Leading500. In an attempt to obtain uniformity across all personal computers in effectiveness reporting, the algorithm used in solving the system of equations in the benchmark procedure must comply with LU factorization with partial pivoting. In particular, the procedure count for the algorithm should be 2/3 n^3 + O(n^2) dual precision floating point operations. This excludes the use of an easy matrix multiply algorithm like "Strassen's Technique" or algorithms which compute a solution in a precision lower than full precision (64 bit floating point arithmetic) and refine the answer using an iterative strategy.
 

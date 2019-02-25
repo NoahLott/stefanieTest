@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/style/style.css">
+<script>
+  var nlviconfig = {
+    title: "SP Archives",
+    author: "Super Tech|SP Archives",
+    baseUrl: "/",
+    theme: {
+      scheme: "banderole",
+      lightbox: true,
+      animate: true,
+      search: true,
+      friends: false,
+      reward: false,
+      lazy: false
+    }
+  }
+</script>
+
+
+
+
+    <link rel="stylesheet" href="/script/lib/lightbox/css/lightbox.min.css">
+
+
+
+
+    <link rel="stylesheet" href="/syuanpi/syuanpi.min.css">
+
+
+
+
+    <link rel="icon" href="/images/favicon.png">
+
+
+
+
+
+
+
+
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="browsermode" content="application">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SP Archives">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="msapplication-navbutton-color" content="#666666">
+<meta name= "format-detection" content="telephone=no" />
+<meta name="keywords" content="nlvi, Nlvi" />
+
+  <link rel="apple-touch-icon"  sizes="72x72"  href="/images/favicon.png">
+  <link rel="apple-touch-icon-precomposed"  sizes="72x72"  href="/images/favicon.png">
+
+
+
+
+
+  <title>
+  SP Archives
+  
+</title>
+</head>
+<body>
+  <div class="progress">
+  <div class="progress-inner"></div>
+</div>
+
+  
+    <div class="tagcloud-mask"></div>  
+<div class="tagcloud" id="tagcloud">
+  <div class="tagcloud-inner">
+    
+  </div>
+</div>
+  
+
+  <div class="container" style="display:none;">
+
+    <header class="header" id="header">
+  <div class="header-wrapper">
+    <div class="logo">
+  <div class="logo-inner syuanpi tvIn">
+    <span><a href="/">SP Archives</a></span>
+    
+  </div>
+</div>
+    <nav class="main-nav">
+  
+  <ul class="main-nav-list syuanpi tvIn">
+  
+    <li class="menu-item">
+      <a href="javascript:;" id="search">
+        <span>Search</span>
+        
+      </a>
+    </li>
+  
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/archives/" id="Archives">
+        <span class="base-name">Archives</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/about/" id="About">
+        <span class="base-name">About</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/programming/" id="Programming">
+        <span class="base-name">Programming</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/supercomputer/" id="Supercomputer">
+        <span class="base-name">Supercomputer</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/manufacture/" id="Manufacture">
+        <span class="base-name">Manufacture</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/news/" id="News">
+        <span class="base-name">News</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/recommended-of-the-year/" id="ROFY">
+        <span class="base-name">ROFY</span>
+        
+      </a>
+    </li>
+  
+  </ul>
+  
+</nav>
+
+    
+    
+  </div>
+</header>
+<div class="mobile-header">
+  <div class="mobile-header-body">
+    <div class="mobile-header-list">
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/archives/">
+                    <span>nav.Archives</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/about/">
+                    <span>nav.About</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/programming/">
+                    <span>nav.Programming</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/supercomputer/">
+                    <span>nav.Supercomputer</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/manufacture/">
+                    <span>nav.Manufacture</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/news/">
+                    <span>nav.News</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/recommended-of-the-year/">
+                    <span>nav.ROFY</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+    </div>
+  </div>
+  <div class="mobile-header-nav">
+    <div class="mobile-header-item" id="mobile-left">
+      <div class="header-menu-item">
+        <span class="header-menu-line"></span>
+      </div>
+    </div>
+    <h1 class="mobile-header-title">
+      <a href="/">SP Archives</a>
+    </h1>
+    <div class="mobile-header-item"></div>
+  </div>
+</div>
+    <div class="container-inner">
+      <main class="main" id="main">
+        <div class="main-wrapper">
+          
+  
+
+<section class="posts">
+  
+    
+  
+  <article class="
+  post
+  
+  ">
+    <header class="post-header">
+      <div class="post-time syuanpi fadeInUpShort back-1">
+        <div class="post-time-wrapper">
+          <span>2014-04-06</span>
+          
+            
+              <span class="post-category"><a href="/categories/programming/">programming</a></span>
+            
+          
+          
+        </div>
+      </div>
+      <h1 class="post-title syuanpi fadeInUpShort back-2">
+        
+          <a href="/how-to-program-supercomputer/">How To Program Supercomputer</a>
+        
+      </h1>
+    </header>
+    <div class="post-content syuanpi fadeInUpShort back-3">
+      
+        
+          <p><img src="/images/3.jpg" alt=""></p>
+<p>We felt that it had been essential to write a reserve reintroducing programming tactics that should be employed by software developers targeting the existing and future generation supercomputers. As the techniques have been around for a long time, many of today’s developers are not aware of them. Let us explain.</p>
+<p>The supercomputer is a shifting target for application programmers since its inception in the form of Seymour Cray’s CDC 6600 in the first 1970s, forcing developers to adjust to new approaches together with the ever-changing hardware and software systems. This need of programmer adaptation is especially conspicuous in neuro-scientific high-effectiveness processing (HPC), where developers typically optimize for the prospective node architecture to squeeze out every previous ounce of available effectiveness. This continued through the CDC7600 and the vector-rich systems: Cray 1, Cray XMP, YMP, and C90.</p>
+<p>Then, the “Attack of the killer micros” in the 1990s threw everything right into a tizzy. With raising node counts, request developers possessed to consider PVM, and MPI, within their quest to parallelize their applications across the multitude of nodes comprising commodity off-the-shelf (COTS) chips without the vector instructions. As can be seen in Figure 1, the COTS chips acquired more rapidly as their clock routine time decreased between 1995 and 2010. Software developers no more had to be worried about the node architecture.</p>
+        
+      
+    
+      <p class="content-link">
+        <a href="/how-to-program-supercomputer/#more">
+          <span>Read More...</span>
+        </a>
+      </p>
+    
+    </div>
+    
+  </article>
+  
+  
+    
+  
+
+  
+    
+  
+  <article class="
+  post
+  
+  ">
+    <header class="post-header">
+      <div class="post-time syuanpi fadeInUpShort back-1">
+        <div class="post-time-wrapper">
+          <span>2012-03-10</span>
+          
+            
+              <span class="post-category"><a href="/categories/supercomputer/">supercomputer</a></span>
+            
+          
+          
+        </div>
+      </div>
+      <h1 class="post-title syuanpi fadeInUpShort back-2">
+        
+          <a href="/china-and-japan-supercomputer/">China And Japan Supercomputer</a>
+        
+      </h1>
+    </header>
+    <div class="post-content syuanpi fadeInUpShort back-3">
+      
+        
+          <p><img src="/images/2.jpg" alt=""></p>
+<h2 id="Supercomputer-slowdown-World’s-quickest-system-sees-zero-new-challengers"><a href="#Supercomputer-slowdown-World’s-quickest-system-sees-zero-new-challengers" class="headerlink" title="Supercomputer slowdown: World’s quickest system sees zero new challengers"></a>Supercomputer slowdown: World’s quickest system sees zero new challengers</h2><p>HPC growth stalls with only 1 new supercomputer cracking top list.</p>
+<p>The group that measures the world’s Top 500 most effective supercomputers hasn’t crowned a new champion in more than a year.</p>
+<p>Tianhe-2, of China’s National Super Computer Center, overran the top spot in June 2013 with a measured speed of 33.86 petaflop/s, and it held on to #1 in both November 2013 list and the June 2014 list released yesterday.</p>
+<p>The follow-up to Tianhe-1A, Tianhe-2 uses Ivy Bridge-based Intel Xeons and Intel Xeon Phi for a total of 3.12 million cores. The computer uses 17,808 kilowatts of ability for 1.9 gigaflop/s per watt and will theoretically hit speeds of up to 54.9 petaflops.</p>
+        
+      
+    
+      <p class="content-link">
+        <a href="/china-and-japan-supercomputer/#more">
+          <span>Read More...</span>
+        </a>
+      </p>
+    
+    </div>
+    
+  </article>
+  
+  
+    
+  
+
+  
+    
+  
+  <article class="
+  post
+  
+  ">
+    <header class="post-header">
+      <div class="post-time syuanpi fadeInUpShort back-1">
+        <div class="post-time-wrapper">
+          <span>2010-11-27</span>
+          
+            
+              <span class="post-category"><a href="/categories/supercomputer/">supercomputer</a></span>
+            
+          
+          
+        </div>
+      </div>
+      <h1 class="post-title syuanpi fadeInUpShort back-2">
+        
+          <a href="/today-super-computer/">Today Super Computer</a>
+        
+      </h1>
+    </header>
+    <div class="post-content syuanpi fadeInUpShort back-3">
+      
+        
+          <p><img src="/images/1.jpg" alt=""></p>
+<p>At any moment, there are many well-publicized supercomputers that operate at extremely high speeds relative to all other computers. The word is also sometimes applied to far slower (but still impressively fast) computer systems. The largest, most strong supercomputers are actually multiple PCs that perform parallel digesting. In general, there will be two parallel processing methods: symmetric multiprocessing (SMP) and massively parallel processing (MPP).</p>
+<p>By June 2016, the most effective supercomputer in the world was the Sunway TaihuLight, in the city of Wixu found in China. A few figures on TaihuLight:</p>
+<ul>
+<li>40,960 64-bit, RISC processors with 260 cores each.</li>
+<li>Peak performance of 125 petaflops (quadrillion floating point procedures per second).</li>
+<li>32GB DDR3 memory space per compute node,  1.3 PB memory in total.</li>
+<li>Linux-based Sunway Raise operating system (OS).</li>
+</ul>
+        
+      
+    
+      <p class="content-link">
+        <a href="/today-super-computer/#more">
+          <span>Read More...</span>
+        </a>
+      </p>
+    
+    </div>
+    
+  </article>
+  
+  
+    
+  
+
+  
+    
+  
+  <article class="
+  post
+  
+  ">
+    <header class="post-header">
+      <div class="post-time syuanpi fadeInUpShort back-1">
+        <div class="post-time-wrapper">
+          <span>2010-08-13</span>
+          
+            
+              <span class="post-category"><a href="/categories/programming/">programming</a></span>
+            
+          
+          
+        </div>
+      </div>
+      <h1 class="post-title syuanpi fadeInUpShort back-2">
+        
+          <a href="/16-petaflops-and-more-core-without-it-blowing-up/">16 Petaflops and More Core Without It Blowing Up</a>
+        
+      </h1>
+    </header>
+    <div class="post-content syuanpi fadeInUpShort back-3">
+      
+        
+          <p><img src="/images/4.jpg" alt=""></p>
+<h2 id="With-16-petaflops-and-1-6M-cores-DOE-supercomputer-is-world’s-fastest"><a href="#With-16-petaflops-and-1-6M-cores-DOE-supercomputer-is-world’s-fastest" class="headerlink" title="With 16 petaflops and 1.6M cores, DOE supercomputer is world’s fastest"></a>With 16 petaflops and 1.6M cores, DOE supercomputer is world’s fastest</h2><p>Every six months, Earth’s most important supercomputers have a huge race to see that may lay claim to getting the world’s most effective high-performance computing cluster.</p>
+<p>In the most recent Top 500 Supercomputer Sites list unveiled Monday morning hours, a newly assembled cluster constructed with IBM hardware at the Department of Energy’s Lawrence Livermore National Laboratory (LLNL) takes the most notable prize. Its speed? An impressive 16.32 petaflops, or 16 thousand trillion calculations per second. With 96 racks, 98,304 compute nodes, 1.6 million cores, and 1.6 petabytes of memory across 4,500 square feet, the IBM Blue Gene/Q system installed at LLNL overtakes the 10-petaflop, 705,000-core computer in Japan’s RIKEN Advanced Institute for Computational Research.</p>
+        
+      
+    
+      <p class="content-link">
+        <a href="/16-petaflops-and-more-core-without-it-blowing-up/#more">
+          <span>Read More...</span>
+        </a>
+      </p>
+    
+    </div>
+    
+  </article>
+  
+  
+    
+  
+
+  
+</section>
+  
+  <nav class="pagination">
+      <a class="extend prev" rel="prev" href="/">< Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  </nav>
+
+
+        </div>
+      </main>
+
+      <footer class="footer syuanpi fadeIn" id="footer">
+  <hr>
+  <div class="footer-wrapper">
+    <div class="left">
+      <div class="contact-icon">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
+            <a href="https://www.facebook.com/1" class="iconfont icon-social-facebook" title="facebook"></a>
+        
+        
+        
+        
+    
+        
+        
+        
+            <a href="https://twitter.com/2" class="iconfont icon-social-twitter" title="twitter"></a>
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+            <a href="3" class="iconfont icon-social-instagram" title="instagram"></a>
+        
+        
+    
+        
+        
+            <a href="https://weibo.com/4" class="iconfont icon-social-weibo" title="weibo"></a>
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+            <a href="https://www.zhihu.com/people/5" class="iconfont icon-zhihu" title="zhihu"></a>
+        
+        
+        
+        
+        
+    
+        
+            <a href="https://github.com/6" class="iconfont icon-social-github" title="github"></a>
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+            <a href="https://www.linkedin.com/in/7" class="iconfont icon-social-linkedin" title="linkedin"></a>
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+            <a href="https://www.douban.com/people/8" class="iconfont icon-social-douban" title="douban"></a>
+        
+    
+</div>
+
+    </div>
+    <div class="right">
+      <div class="copyright">
+    <div class="info">
+        <span>&copy;</span>
+        <span>2010 ~ 2019</span>
+        <span>❤</span>
+        <span>Super Tech|SP Archives</span>
+    </div>
+    <div class="theme">
+        <span>
+            Powered by
+            <a href="<%- config.root %>" target="_blank">Stefanie Power Archives</a>
+        </span>
+    </div>
+    
+</div>
+
+    </div>
+  </div>
+</footer>
+    </div>
+  </div>
+  <script src="/script/lib/jquery/jquery-3.2.1.min.js"></script>
+
+
+  <script src="/script/lib/lightbox/js/lightbox.min.js"></script>
+
+
+
+
+
+
+
+
+<script src="/script/src/nlvi.js"></script>
+
+  <script src="/script/scheme/banderole.js"></script>
+
+<script src="/script/bootstarp.js"></script>
+
+
+<div class="backtop syuanpi melt toTop" id="backtop">
+    <i class="iconfont icon-up"></i>
+    <span style="text-align:center;font-family:Georgia;"><span style="font-family:Georgia;" id="scrollpercent">1</span>%</span>
+</div>
+
+
+  <div class="search" id="search">
+    <div class="mask" id="mask"></div>
+    <div class="search-wrapper syuanpi">
+      <h2 id="search-header" class="syuanpi">Give me the keyword</h2>
+      <div class="input">
+        <input type="text" id="local-search-input" results="0" name="">
+      </div>
+      <div id="local-search-result"></div>
+    </div>
+  </div>
+
+
+</body>
+</html>

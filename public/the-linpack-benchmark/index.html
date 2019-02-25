@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/style/style.css">
+<script>
+  var nlviconfig = {
+    title: "SP Archives",
+    author: "Super Tech|SP Archives",
+    baseUrl: "/",
+    theme: {
+      scheme: "banderole",
+      lightbox: true,
+      animate: true,
+      search: true,
+      friends: false,
+      reward: false,
+      lazy: false
+    }
+  }
+</script>
+
+
+
+
+    <link rel="stylesheet" href="/script/lib/lightbox/css/lightbox.min.css">
+
+
+
+
+    <link rel="stylesheet" href="/syuanpi/syuanpi.min.css">
+
+
+
+
+    <link rel="icon" href="/images/favicon.png">
+
+
+
+
+
+
+
+
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="browsermode" content="application">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SP Archives">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="msapplication-navbutton-color" content="#666666">
+<meta name= "format-detection" content="telephone=no" />
+<meta name="keywords" content="nlvi, Nlvi" />
+
+  <link rel="apple-touch-icon"  sizes="72x72"  href="/images/favicon.png">
+  <link rel="apple-touch-icon-precomposed"  sizes="72x72"  href="/images/favicon.png">
+
+
+
+
+
+  <title> The Linpack Benchmark · SP Archives </title>
+</head>
+<body>
+  <div class="progress">
+  <div class="progress-inner"></div>
+</div>
+
+  
+    <div class="tagcloud-mask"></div>  
+<div class="tagcloud" id="tagcloud">
+  <div class="tagcloud-inner">
+    
+  </div>
+</div>
+  
+
+  <div class="container" style="display:none;">
+
+    <header class="header" id="header">
+  <div class="header-wrapper">
+    <div class="logo">
+  <div class="logo-inner syuanpi tvIn">
+    <span><a href="/">SP Archives</a></span>
+    
+  </div>
+</div>
+    <nav class="main-nav">
+  
+  <ul class="main-nav-list syuanpi tvIn">
+  
+    <li class="menu-item">
+      <a href="javascript:;" id="search">
+        <span>Search</span>
+        
+      </a>
+    </li>
+  
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/archives/" id="Archives">
+        <span class="base-name">Archives</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/about/" id="About">
+        <span class="base-name">About</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/programming/" id="Programming">
+        <span class="base-name">Programming</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/supercomputer/" id="Supercomputer">
+        <span class="base-name">Supercomputer</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/manufacture/" id="Manufacture">
+        <span class="base-name">Manufacture</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/news/" id="News">
+        <span class="base-name">News</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/recommended-of-the-year/" id="ROFY">
+        <span class="base-name">ROFY</span>
+        
+      </a>
+    </li>
+  
+  </ul>
+  
+</nav>
+
+    
+    
+  </div>
+</header>
+<div class="mobile-header">
+  <div class="mobile-header-body">
+    <div class="mobile-header-list">
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/archives/">
+                    <span>nav.Archives</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/about/">
+                    <span>nav.About</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/programming/">
+                    <span>nav.Programming</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/supercomputer/">
+                    <span>nav.Supercomputer</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/manufacture/">
+                    <span>nav.Manufacture</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/news/">
+                    <span>nav.News</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/recommended-of-the-year/">
+                    <span>nav.ROFY</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+    </div>
+  </div>
+  <div class="mobile-header-nav">
+    <div class="mobile-header-item" id="mobile-left">
+      <div class="header-menu-item">
+        <span class="header-menu-line"></span>
+      </div>
+    </div>
+    <h1 class="mobile-header-title">
+      <a href="/">SP Archives</a>
+    </h1>
+    <div class="mobile-header-item"></div>
+  </div>
+</div>
+    <div class="container-inner">
+      <main class="main" id="main">
+        <div class="main-wrapper">
+          
+    
+  
+  <article class="
+  post
+   is_post 
+  ">
+    <header class="post-header">
+      <div class="post-time syuanpi fadeInUpShort back-1">
+        <div class="post-time-wrapper">
+          <span>2018-02-01</span>
+          
+            
+              <span class="post-category"><a href="/categories/news/">news</a></span>
+            
+          
+          
+            
+          
+        </div>
+      </div>
+      <h1 class="post-title syuanpi fadeInUpShort back-2">
+        
+          The Linpack Benchmark
+        
+      </h1>
+    </header>
+    <div class="post-content syuanpi fadeInUpShort back-3">
+      
+        <p><img src="/images/7.jpg" alt=""></p>
+<p>As a yardstick of efficiency we are employing the `best’ effectiveness as measured by the LINPACK Benchmark. LINPACK was picked because it is trusted and performance quantities are available for virtually all relevant systems.</p>
+<p>The LINPACK Benchmark was introduced by Jack Dongarra. An in depth description in addition to a list of performance outcomes on a wide variety of machines comes in postscript contact form from net-lib. Below you can download the most recent release of the LINPACK Article: efficiency.ps. A parallel execution of the Linpack benchmark and instructions how to run it.</p>
+<p>The benchmark found in the LINPACK Benchmark is to solve a dense system of linear equations. For the Top rated500, we used that type of the benchmark which allows an individual to scale how big is the problem also to optimize the software to be able to achieve the very best performance for confirmed machine. This performance does not reflect the overall efficiency of confirmed system, as no single number ever before can. It does, however, reflect the functionality of a committed program for solving a dense system of linear equations. Since the situation is quite regular, the overall performance achieved is fairly high, and the effectiveness numbers give a good correction of peak overall performance.</p>
+<a id="more"></a>
+<p>By measuring some of the performance for different issue sizes n, a consumer can get not merely the maximal achieved effectiveness Rmax for the problem size Nmax but also the condition size N1/2 where half of the overall performance Rmax is achieved. These numbers alongside the theoretical peak functionality Rpeak are the figures given in the Leading500. In an attempt to obtain uniformity across all personal computers in effectiveness reporting, the algorithm used in solving the system of equations in the benchmark procedure must comply with LU factorization with partial pivoting. In particular, the procedure count for the algorithm should be 2/3 n^3 + O(n^2) dual precision floating point operations. This excludes the use of an easy matrix multiply algorithm like “Strassen’s Technique” or algorithms which compute a solution in a precision lower than full precision (64 bit floating point arithmetic) and refine the answer using an iterative strategy.</p>
+<p>As a yardstick of effectiveness we are employing the `best’ performance as measured by the LINPACK Benchmark. LINPACK was picked because it is trusted and performance quantities are available for virtually all relevant systems.</p>
+<p>The LINPACK Benchmark was introduced by Jack Dongarra. A detailed description in addition to a list of performance results on a wide variety of machines comes in postscript web form from net-lib.</p>
+<p>The benchmark found in the LINPACK Benchmark is to resolve a dense system of linear equations. For the Major500, we applied that edition of the benchmark which allows an individual to scale how big is the problem and to optimize the software so that you can achieve the very best performance for confirmed machine. This performance will not reflect the overall efficiency of confirmed system, as no number ever can. It does, however, reflect the overall performance of a devoted program for solving a dense program of linear equations. Since the situation is very regular, the functionality achieved is quite high, and the functionality numbers give a good correction of peak efficiency.</p>
+<p>By measuring the actual performance for different difficulty sizes n, a end user can get not merely the maximal achieved overall performance Rmax for the situation size Nmax but also the situation size N1/2 where half of the performance Rmax is achieved. These numbers together with the theoretical peak effectiveness Rpeak are the numbers given in the Top rated500. In an attempt to get hold of uniformity across all pcs in effectiveness reporting, the algorithm found in solving the machine of equations in the benchmark treatment must conform to LU factorization with partial pivoting. Specifically, the operation count for the algorithm must be 2/3 n^3 + O(n^2) dual precision floating point functions. This excludes the utilization of an easy matrix multiply algorithm like “Strassen’s Approach” or algorithms which compute a remedy in a precision lower than full precision (64 bit floating stage arithmetic) and refine the answer using an iterative way.</p>
+<h2 id="The-Authors"><a href="#The-Authors" class="headerlink" title="The Authors"></a>The Authors</h2><h3 id="HANS-WERNER-MEUER-1936-2014"><a href="#HANS-WERNER-MEUER-1936-2014" class="headerlink" title="HANS WERNER MEUER (1936 - 2014)"></a>HANS WERNER MEUER (1936 - 2014)</h3><p>In 1993, Hans Meuer started the TOP500 project together with Erich Strohmaier (previously at the University of Mannheim, currently at Lawrence Berkeley National Laboratory) and Jack Dongarra (University of Tennessee and ORNL). From 1976 until his retirement in 2000, Meuer was director of the processing center and professor for computer technology at the University of Mannheim, Germany. While at the university, Meuer was co-founder and organizer of the first of all Mannheim Supercomputer Seminar in 1986, an gross annual appointment referred to today as the International Supercomputing Meeting (ISC).Meuer features served as the Meeting General Chair since the very beginning. Since 1998, he has been managing director of Prometeus GmbH.</p>
+<p>The TOP500 list was created as a project for the June 1993 meeting in Mannheim, and updated for the Supercomputing 93 conference held that November. The list continues to be released at ISC every June and SC in November.</p>
+<p>Ahead of joining the University of Mannheim, Meuer served as specialist, task leader, group and department chief during his 11 years at the study Center in Julich,Germany, from 1962 - 73. Furthermore to his afore stated activities, Hans Meuer offers been editor-in-chief of the professional IT journal PIK - Praxis der Informationsverarbeitung und Kommunikation(published by KG Saur VerlagMunchen, Munich), from 1986 - 2004. He was a member of the professional societies ACM and GI. He posted numerous articles in the areas of mathematics, data processing and computer research.</p>
+<p>Meuer studied mathematics, physics and politics in the universities of Marburg, Giessen and Vienna. He graduated at the University of Giessen in 1962and in 1972, he received his doctorate in used mathematics from the Rheinisch Westfalischen Complex University (RWTH) of Aachen. </p>
+<p>Prof. Dr. Hans Werner Meuer passed on at the age of 77 at his residence in Daisbach, Southern Germany, on January 20, 2014, after a short battle with cancer.</p>
+<h3 id="ERICH-STROHMAIER’"><a href="#ERICH-STROHMAIER’" class="headerlink" title="ERICH STROHMAIER’"></a>ERICH STROHMAIER’</h3><p>Dealing with Prof. Hans Meuer, Erich Strohmaier created the primary Major500 list in June 1993. On his primary day at the brand new task at the University of Mannheim, he attended a tiny university conference, the “Mannheimer Supercomputer Seminar” organized by Meuer and Dr. Hans-Martin Wacker. One of is own duties while working for Prof. Meuer was to put together statistics on all over the world supercomputers in planning for the annual assembly of the meeting. Thinking it could be a one-time deal, Strohmaier created a data source on his pc for just that. But then Meuer and Strohmaier made a decision to see how much the list would switch in five a few months and recalculated the list in time to provide the effects at the 1993 Supercomputing meeting placed in November in Portland, Oregon. The Leading500 list of the world’s leading supercomputers was born.</p>
+<p>Strohmaier earned his Ph.D. in theoretical physics in 1990. Since his thesis centered on numerical strategies in elementary particle physics that he used the largest supercomputers obtainable, he accepted a study position in HPC at the University of Mannheim for a fresh project comparing the effectiveness of a number of physics applications on a Fujitsu VP2600 supercomputer. In 1995, as that exploration funding was closing, he decided to choose a position in the U.S. and ended up dealing with Linpack writer and fellow TOP500 editor Jack Dongarra, at the University of Tennessee. He relocated to Lawrence Berkeley National Laboratory in 2001. Furthermore to his current role as head into the future Technology Group at Berkeley Lab, he is also the principal investigator of the Department of Energy-funded CACHE Institute, a joint mathematics and computer system science institute centered on Interaction Avoiding and Interaction Hiding at Intensive Scales. In 2008, he was an associate of the staff which received the ACM Gordon Bell Prize for Algorithm Development.</p>
+<h3 id="JACK-DONGARRA"><a href="#JACK-DONGARRA" class="headerlink" title="JACK DONGARRA"></a>JACK DONGARRA</h3><p>Jack Dongarra has been involved because the origin and formation of the Major500 list in 1993, that used his Linpack benchmark seeing that the common request for evaluating the overall performance of supercomputers. Through the constant usage of the Linpack benchmark, the Major500 list offers a standardized measure of supercomputers over the past 25 years. Dongarra retains appointments at the University of Tennessee and Oak Ridge National Laboratory. He’s a Faculty Fellow at Texas A&amp;M University’s Institute for Advanced Analysis and Turing Fellow at the University of Manchester. He’s also an Adjunct Professor at Rice University. He specializes in numerical algorithms in linear algebra, parallel computing, use of advanced-computer system architectures, programming methodology, and tools for parallel personal computers. </p>
+<p>Furthermore to Linpack and the TOP500, Dongarra has contributed to the look and implementation of the following open source software packages and devices: EISPACK, the BLAS, LAPACK, ScaLAPACK, Net-lib, PVM, MPI, Open-MPI, NetSolve, ATLAS, PAPI, PLASMA, and MAGMA. He has published approximately 200 articles, papers, studies and specialized memoranda and he’s co-author of several literature. He was awarded the IEEE Sid Fernbach Award in 2004 for his contributions in the use of powerful computers using innovative techniques; in 2008 he was the recipient of the primary IEEE Medal of Excellence in Scalable Computing; in 2010 2010 he was the earliest recipient of the SIAM Particular Fascination Group on Supercomputer’s award for Job Achievement; and in 2011 he was the recipient of the IEEE IPDPS 2011 Charles Babbage Award. He is a Fellow of the AAAS, ACM, IEEE, and SIAM and a member of the National Academy of Engineering. Dongarra provides been an ISC Fellow since 2012.</p>
+<p>Dongarra received a Bachelor of Science found in Mathematics from Chicago Condition University found in 1972 and a Expert of Science in Pc Technology from the Illinois Institute of Technology found in 1973. He received his Ph.D. in Applied Mathematics from the University of New Mexico in 1980. He worked at the Argonne National Laboratory until 1989, learning to be a senior scientist. He’s the director of the Impressive Processing Laboratory at the University of Tennessee.</p>
+
+      
+    
+    </div>
+    
+      
+
+      
+  <hr class="copy-line">
+  <div class="post-copyright">
+    <div class="copy-author">
+      <span>Author :</span>
+      <span>Super Tech|SP Archives</span>
+    </div>
+  </div>
+
+    
+  </article>
+  
+    
+  <nav class="article-page">
+    
+      <a href="/upgrade-the-supercomputer/" id="art-left" class="art-left">
+        <span class="next-title">
+          <i class="iconfont icon-left"></i>Upgrade The Supercomputer
+        </span>
+      </a>
+    
+    
+      <a href="/news-team/" id="art-right" class="art-right">
+        <span class="prev-title"> 
+          News Team<i class="iconfont icon-right"></i>  
+        </span>
+      </a>
+    
+  </nav>
+
+    
+  <i id="com-switch" class="iconfont icon-more jumping-in long infinite" style="font-size:24px;display:block;text-align:center;transform:rotate(180deg);"></i>
+  <div class="post-comments" id="post-comments" style="display: block;margin: auto 16px;">
+    
+    
+    
+
+    
+
+  </div>
+
+
+
+  
+  
+    
+  
+  <aside class="post-toc">
+    <span class="title" id="toc-switch"><span>Index</span></span>
+    <div class="toc-inner syuanpi back-1" style="display:none;">
+      <li class="title-link"><a href="javascript:;" class="toTop">The Linpack Benchmark</a></li>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#The-Authors"><span class="toc-text">The Authors</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#HANS-WERNER-MEUER-1936-2014"><span class="toc-text">HANS WERNER MEUER (1936 - 2014)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ERICH-STROHMAIER’"><span class="toc-text">ERICH STROHMAIER’</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JACK-DONGARRA"><span class="toc-text">JACK DONGARRA</span></a></li></ol></li></ol>
+    </div>
+  </aside>
+
+
+
+  
+
+
+        </div>
+      </main>
+
+      <footer class="footer syuanpi fadeIn" id="footer">
+  <hr>
+  <div class="footer-wrapper">
+    <div class="left">
+      <div class="contact-icon">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
+            <a href="https://www.facebook.com/1" class="iconfont icon-social-facebook" title="facebook"></a>
+        
+        
+        
+        
+    
+        
+        
+        
+            <a href="https://twitter.com/2" class="iconfont icon-social-twitter" title="twitter"></a>
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+            <a href="3" class="iconfont icon-social-instagram" title="instagram"></a>
+        
+        
+    
+        
+        
+            <a href="https://weibo.com/4" class="iconfont icon-social-weibo" title="weibo"></a>
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+            <a href="https://www.zhihu.com/people/5" class="iconfont icon-zhihu" title="zhihu"></a>
+        
+        
+        
+        
+        
+    
+        
+            <a href="https://github.com/6" class="iconfont icon-social-github" title="github"></a>
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+            <a href="https://www.linkedin.com/in/7" class="iconfont icon-social-linkedin" title="linkedin"></a>
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+            <a href="https://www.douban.com/people/8" class="iconfont icon-social-douban" title="douban"></a>
+        
+    
+</div>
+
+    </div>
+    <div class="right">
+      <div class="copyright">
+    <div class="info">
+        <span>&copy;</span>
+        <span>2010 ~ 2019</span>
+        <span>❤</span>
+        <span>Super Tech|SP Archives</span>
+    </div>
+    <div class="theme">
+        <span>
+            Powered by
+            <a href="<%- config.root %>" target="_blank">Stefanie Power Archives</a>
+        </span>
+    </div>
+    
+</div>
+
+    </div>
+  </div>
+</footer>
+    </div>
+  </div>
+  <script src="/script/lib/jquery/jquery-3.2.1.min.js"></script>
+
+
+  <script src="/script/lib/lightbox/js/lightbox.min.js"></script>
+
+
+
+
+
+
+
+
+<script src="/script/src/nlvi.js"></script>
+
+  <script src="/script/scheme/banderole.js"></script>
+
+<script src="/script/bootstarp.js"></script>
+
+
+<div class="backtop syuanpi melt toTop" id="backtop">
+    <i class="iconfont icon-up"></i>
+    <span style="text-align:center;font-family:Georgia;"><span style="font-family:Georgia;" id="scrollpercent">1</span>%</span>
+</div>
+
+
+  <div class="search" id="search">
+    <div class="mask" id="mask"></div>
+    <div class="search-wrapper syuanpi">
+      <h2 id="search-header" class="syuanpi">Give me the keyword</h2>
+      <div class="input">
+        <input type="text" id="local-search-input" results="0" name="">
+      </div>
+      <div id="local-search-result"></div>
+    </div>
+  </div>
+
+
+</body>
+</html>

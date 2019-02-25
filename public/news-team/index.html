@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/style/style.css">
+<script>
+  var nlviconfig = {
+    title: "SP Archives",
+    author: "Super Tech|SP Archives",
+    baseUrl: "/",
+    theme: {
+      scheme: "banderole",
+      lightbox: true,
+      animate: true,
+      search: true,
+      friends: false,
+      reward: false,
+      lazy: false
+    }
+  }
+</script>
+
+
+
+
+    <link rel="stylesheet" href="/script/lib/lightbox/css/lightbox.min.css">
+
+
+
+
+    <link rel="stylesheet" href="/syuanpi/syuanpi.min.css">
+
+
+
+
+    <link rel="icon" href="/images/favicon.png">
+
+
+
+
+
+
+
+
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="browsermode" content="application">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SP Archives">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="msapplication-navbutton-color" content="#666666">
+<meta name= "format-detection" content="telephone=no" />
+<meta name="keywords" content="nlvi, Nlvi" />
+
+  <link rel="apple-touch-icon"  sizes="72x72"  href="/images/favicon.png">
+  <link rel="apple-touch-icon-precomposed"  sizes="72x72"  href="/images/favicon.png">
+
+
+
+
+
+  <title> News Team · SP Archives </title>
+</head>
+<body>
+  <div class="progress">
+  <div class="progress-inner"></div>
+</div>
+
+  
+    <div class="tagcloud-mask"></div>  
+<div class="tagcloud" id="tagcloud">
+  <div class="tagcloud-inner">
+    
+  </div>
+</div>
+  
+
+  <div class="container" style="display:none;">
+
+    <header class="header" id="header">
+  <div class="header-wrapper">
+    <div class="logo">
+  <div class="logo-inner syuanpi tvIn">
+    <span><a href="/">SP Archives</a></span>
+    
+  </div>
+</div>
+    <nav class="main-nav">
+  
+  <ul class="main-nav-list syuanpi tvIn">
+  
+    <li class="menu-item">
+      <a href="javascript:;" id="search">
+        <span>Search</span>
+        
+      </a>
+    </li>
+  
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/archives/" id="Archives">
+        <span class="base-name">Archives</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/about/" id="About">
+        <span class="base-name">About</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/programming/" id="Programming">
+        <span class="base-name">Programming</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/supercomputer/" id="Supercomputer">
+        <span class="base-name">Supercomputer</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/manufacture/" id="Manufacture">
+        <span class="base-name">Manufacture</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/news/" id="News">
+        <span class="base-name">News</span>
+        
+      </a>
+    </li>
+  
+    
+      
+    
+    <li class="menu-item">
+      <a href="/categories/recommended-of-the-year/" id="ROFY">
+        <span class="base-name">ROFY</span>
+        
+      </a>
+    </li>
+  
+  </ul>
+  
+</nav>
+
+    
+    
+  </div>
+</header>
+<div class="mobile-header">
+  <div class="mobile-header-body">
+    <div class="mobile-header-list">
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/archives/">
+                    <span>nav.Archives</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/about/">
+                    <span>nav.About</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/programming/">
+                    <span>nav.Programming</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/supercomputer/">
+                    <span>nav.Supercomputer</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/manufacture/">
+                    <span>nav.Manufacture</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/news/">
+                    <span>nav.News</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+        
+            <div class="mobile-nav-item">
+                <a href="/categories/recommended-of-the-year/">
+                    <span>nav.ROFY</span>
+                    
+                    
+                </a>
+            </div>
+        
+      
+    </div>
+  </div>
+  <div class="mobile-header-nav">
+    <div class="mobile-header-item" id="mobile-left">
+      <div class="header-menu-item">
+        <span class="header-menu-line"></span>
+      </div>
+    </div>
+    <h1 class="mobile-header-title">
+      <a href="/">SP Archives</a>
+    </h1>
+    <div class="mobile-header-item"></div>
+  </div>
+</div>
+    <div class="container-inner">
+      <main class="main" id="main">
+        <div class="main-wrapper">
+          
+    
+  
+  <article class="
+  post
+   is_post 
+  ">
+    <header class="post-header">
+      <div class="post-time syuanpi fadeInUpShort back-1">
+        <div class="post-time-wrapper">
+          <span>2017-10-16</span>
+          
+            
+              <span class="post-category"><a href="/categories/news/">news</a></span>
+            
+          
+          
+            
+          
+        </div>
+      </div>
+      <h1 class="post-title syuanpi fadeInUpShort back-2">
+        
+          News Team
+        
+      </h1>
+    </header>
+    <div class="post-content syuanpi fadeInUpShort back-3">
+      
+        <p><img src="/images/8.jpg" alt="Ai"></p>
+<h2 id="EDITORIAL"><a href="#EDITORIAL" class="headerlink" title="EDITORIAL"></a>EDITORIAL</h2><h3 id="Michael-Feldman-Managing-Editor"><a href="#Michael-Feldman-Managing-Editor" class="headerlink" title="Michael Feldman, Managing Editor"></a>Michael Feldman, Managing Editor</h3><p>Michael Feldman has covered the powerful computing industry for 10 years, first while the managing editor of HPCwire, then as market research analyst in Intersect360 Research. Throughout that period, he founded himself as trusted tone of voice in the HPC network. Prior to his are a journalist and industry analyst, Michael was a application engineer, a profession that spanned 25 years, and included tasks in compiler/runtime platforms, software development equipment, and real-time embedded systems.</p>
+<h2 id="PUBLISHING"><a href="#PUBLISHING" class="headerlink" title="PUBLISHING"></a>PUBLISHING</h2><h3 id="Martin-Meuer-Publisher"><a href="#Martin-Meuer-Publisher" class="headerlink" title="Martin Meuer, Publisher"></a>Martin Meuer, Publisher</h3><p>Martin Meuer may be the ISC Conference Standard Co-Chair and Managing Director of the ISC Group. Since 2002, he has been a great drive in growing the ISC brand beyond Europe, and elevating the ISC exhibition to an international stature. Prior to becoming a member of ISC Group, Martin kept numerous positions in the IT secureness sector. He holds a graduate level in Computer Research from the University of Karlsruhe, Germany.</p>
+<h3 id="Thomas-Meuer-Publisher"><a href="#Thomas-Meuer-Publisher" class="headerlink" title="Thomas Meuer, Publisher"></a>Thomas Meuer, Publisher</h3><p>Thomas Meuer may be the ISC Conference Standard Co-Chair and Managing Director of ISC Group since 2014. From 2007 - 2014, he was the company’s economic director. He keeps a graduate degree running a business Administration from the University of Mannheim and is a Certified Information Devices Auditor (CISA). Ahead of signing up for ISC Group, Thomas put in over a decade in IT Protection, Consulting, Finance and Risk Supervision in a variety of multinational companies, serving last but not least as an IT Audit Manager at KPMG in Berlin.</p>
+<a id="more"></a>
+<h2 id="SALES-amp-MARKETING"><a href="#SALES-amp-MARKETING" class="headerlink" title="SALES &amp; MARKETING"></a>SALES &amp; MARKETING</h2><h3 id="Anna-Clarke-Brand-amp-Organization-Development-Manager"><a href="#Anna-Clarke-Brand-amp-Organization-Development-Manager" class="headerlink" title="Anna Clarke, Brand &amp; Organization Development Manager"></a>Anna Clarke, Brand &amp; Organization Development Manager</h3><p>Anna Clarke is accountable for the branding of all divisions of ISC Group, including ISC POWERFUL, Best500 and ZetaLeads. She acts as a job manager for the Major500 business device by coordinating work to develop the Best500 website and its own news offering. Before becoming a member of ISC Group, Anna held several advertising positions in the telecommunications and hospitality sectors. She retains an M.A good. degree in Communication Studies and Media Research, Organization Administration and Inter cultural Communications from the LMU Munich. </p>
+<h3 id="Darren-Ebbs-Sales-Manager"><a href="#Darren-Ebbs-Sales-Manager" class="headerlink" title="Darren Ebbs, Sales Manager"></a>Darren Ebbs, Sales Manager</h3><p>Darren Ebbs is the Sales Manager working on the TOP500 project and linked publications. He manages all sales activities linked to the TOP500 and Green500 makes and supports advertisers to find the most suitable opportunities to achieve their marketing goals. Prior to doing work for ISC Group, Darren offers been working in POWERFUL Computing media going back a decade and brings an abundance of knowledge in the marketplace.</p>
+<h3 id="Nages-Sieslack-MARKETING-AND-SALES-COMMUNICATIONS-Manager"><a href="#Nages-Sieslack-MARKETING-AND-SALES-COMMUNICATIONS-Manager" class="headerlink" title="Nages Sieslack, MARKETING AND SALES COMMUNICATIONS Manager"></a>Nages Sieslack, MARKETING AND SALES COMMUNICATIONS Manager</h3><p>Nages Sieslack manages the marketing and sales communications of most ISC Group businesses, including the ISC POWERFUL conference and TOP500. In her part, she promotes the ISC meeting and TOP500 project to all or any stakeholders via a number of communication channels, like the press and cultural media. She also develops sponsorship courses with publications and additional HPC-related conferences. Portion of her obligations includes building romantic relationships with HPC community customers. Nages speaks four languages and is usually adept in cross-cultural interaction. She keeps a bachelor’s degree in Laws and an M.S. in Marketing.  </p>
+<h2 id="GUEST-CONTRIBUTORS"><a href="#GUEST-CONTRIBUTORS" class="headerlink" title="GUEST CONTRIBUTORS"></a>GUEST CONTRIBUTORS</h2><h3 id="Chris-Downing-Crimson-Oak-Consulting"><a href="#Chris-Downing-Crimson-Oak-Consulting" class="headerlink" title="Chris Downing, Crimson Oak Consulting"></a>Chris Downing, Crimson Oak Consulting</h3><p>Chris Downing joined Red Oak Consulting in 2014 on completion of his PHD thesis in computational chemistry at University University London. Having performed academic research using the previous two UK countrywide supercomputing solutions (HECToR and ARCHER) as well as a number of small HPC resources, Chris knows the complexities of complementing both hardware and software to consumer requirements. His detailed understanding of products chemistry and solid-talk about physics means that he is well-placed to provide insight into emerging technology. Chris, Senior Consultant, includes a highly technical skill set working mainly in the technology and research staff providing a broad selection of technical consultancy services. </p>
+<h3 id="Andrew-Jones-Vice-President-HPC-Organization-NAG"><a href="#Andrew-Jones-Vice-President-HPC-Organization-NAG" class="headerlink" title="Andrew Jones, Vice-President HPC Organization, NAG"></a>Andrew Jones, Vice-President HPC Organization, NAG</h3><p>Andrew is business lead for strategic HPC companies and consulting in NAG. NAG operates a HPC center of excellence serving UK, USA and additional countries. Andrew offers over twenty years of knowledge in HPC, supercomputing and scientific processing in government, sector and academia. He possesses been an end-individual of HPC technology in study, a software developer, a HPC provider manager, involved with various acquisition and strategy projects. Andrew can be an active member of the international HPC network. He are available on twitter as @hpcnotes.</p>
+<h3 id="James-Reinders-Parallel-Development-Expert"><a href="#James-Reinders-Parallel-Development-Expert" class="headerlink" title="James Reinders, Parallel Development Expert"></a>James Reinders, Parallel Development Expert</h3><p>James has over 30 years of experience seeing that a software engineer found in high performance processing (HPC) and parallel computing, including 27 years while at Intel Company. As a senior engineer at Intel, he contributed to several high-profile projects, including the world’s primary teraflops supercomputer (ASCI Crimson) and the world’s 1st teraflops microprocessor (Intel Xeon Phi). He’s the writer of eight books, in addition to numerous papers and sites, in the HPC discipline.</p>
+<h3 id="Addison-Snell-Intersect360-Research"><a href="#Addison-Snell-Intersect360-Research" class="headerlink" title="Addison Snell, Intersect360 Research"></a>Addison Snell, Intersect360 Research</h3><p>Together with Michael Feldman, Addison Snell co-hosts the pod cast “This Week found in HPC”, published weekly in TOP500 News.  He’s the CEO of Intersect360 Study and a veteran of the POWERFUL Computing industry. He launched the business in 2007 just as Tabor Analysis, a division of Tabor Communications, and served just as that company’s VP/GM until he and his spouse, Christopher Willard, Ph.D., acquired Tabor Exploration in 2009 2009. During his tenure, Addison has generated Intersect360 Exploration as a premier way to obtain market information, research, and consulting.</p>
+
+      
+    
+    </div>
+    
+      
+
+      
+  <hr class="copy-line">
+  <div class="post-copyright">
+    <div class="copy-author">
+      <span>Author :</span>
+      <span>Super Tech|SP Archives</span>
+    </div>
+  </div>
+
+    
+  </article>
+  
+    
+  <nav class="article-page">
+    
+      <a href="/the-linpack-benchmark/" id="art-left" class="art-left">
+        <span class="next-title">
+          <i class="iconfont icon-left"></i>The Linpack Benchmark
+        </span>
+      </a>
+    
+    
+      <a href="/how-to-program-supercomputer/" id="art-right" class="art-right">
+        <span class="prev-title"> 
+          How To Program Supercomputer<i class="iconfont icon-right"></i>  
+        </span>
+      </a>
+    
+  </nav>
+
+    
+  <i id="com-switch" class="iconfont icon-more jumping-in long infinite" style="font-size:24px;display:block;text-align:center;transform:rotate(180deg);"></i>
+  <div class="post-comments" id="post-comments" style="display: block;margin: auto 16px;">
+    
+    
+    
+
+    
+
+  </div>
+
+
+
+  
+  
+    
+  
+  <aside class="post-toc">
+    <span class="title" id="toc-switch"><span>Index</span></span>
+    <div class="toc-inner syuanpi back-1" style="display:none;">
+      <li class="title-link"><a href="javascript:;" class="toTop">News Team</a></li>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#EDITORIAL"><span class="toc-text">EDITORIAL</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Michael-Feldman-Managing-Editor"><span class="toc-text">Michael Feldman, Managing Editor</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#PUBLISHING"><span class="toc-text">PUBLISHING</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Martin-Meuer-Publisher"><span class="toc-text">Martin Meuer, Publisher</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Thomas-Meuer-Publisher"><span class="toc-text">Thomas Meuer, Publisher</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SALES-amp-MARKETING"><span class="toc-text">SALES &amp; MARKETING</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Anna-Clarke-Brand-amp-Organization-Development-Manager"><span class="toc-text">Anna Clarke, Brand &amp; Organization Development Manager</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Darren-Ebbs-Sales-Manager"><span class="toc-text">Darren Ebbs, Sales Manager</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Nages-Sieslack-MARKETING-AND-SALES-COMMUNICATIONS-Manager"><span class="toc-text">Nages Sieslack, MARKETING AND SALES COMMUNICATIONS Manager</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#GUEST-CONTRIBUTORS"><span class="toc-text">GUEST CONTRIBUTORS</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Chris-Downing-Crimson-Oak-Consulting"><span class="toc-text">Chris Downing, Crimson Oak Consulting</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Andrew-Jones-Vice-President-HPC-Organization-NAG"><span class="toc-text">Andrew Jones, Vice-President HPC Organization, NAG</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#James-Reinders-Parallel-Development-Expert"><span class="toc-text">James Reinders, Parallel Development Expert</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Addison-Snell-Intersect360-Research"><span class="toc-text">Addison Snell, Intersect360 Research</span></a></li></ol></li></ol>
+    </div>
+  </aside>
+
+
+
+  
+
+
+        </div>
+      </main>
+
+      <footer class="footer syuanpi fadeIn" id="footer">
+  <hr>
+  <div class="footer-wrapper">
+    <div class="left">
+      <div class="contact-icon">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
+            <a href="https://www.facebook.com/1" class="iconfont icon-social-facebook" title="facebook"></a>
+        
+        
+        
+        
+    
+        
+        
+        
+            <a href="https://twitter.com/2" class="iconfont icon-social-twitter" title="twitter"></a>
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+            <a href="3" class="iconfont icon-social-instagram" title="instagram"></a>
+        
+        
+    
+        
+        
+            <a href="https://weibo.com/4" class="iconfont icon-social-weibo" title="weibo"></a>
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+            <a href="https://www.zhihu.com/people/5" class="iconfont icon-zhihu" title="zhihu"></a>
+        
+        
+        
+        
+        
+    
+        
+            <a href="https://github.com/6" class="iconfont icon-social-github" title="github"></a>
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+            <a href="https://www.linkedin.com/in/7" class="iconfont icon-social-linkedin" title="linkedin"></a>
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+            <a href="https://www.douban.com/people/8" class="iconfont icon-social-douban" title="douban"></a>
+        
+    
+</div>
+
+    </div>
+    <div class="right">
+      <div class="copyright">
+    <div class="info">
+        <span>&copy;</span>
+        <span>2010 ~ 2019</span>
+        <span>❤</span>
+        <span>Super Tech|SP Archives</span>
+    </div>
+    <div class="theme">
+        <span>
+            Powered by
+            <a href="<%- config.root %>" target="_blank">Stefanie Power Archives</a>
+        </span>
+    </div>
+    
+</div>
+
+    </div>
+  </div>
+</footer>
+    </div>
+  </div>
+  <script src="/script/lib/jquery/jquery-3.2.1.min.js"></script>
+
+
+  <script src="/script/lib/lightbox/js/lightbox.min.js"></script>
+
+
+
+
+
+
+
+
+<script src="/script/src/nlvi.js"></script>
+
+  <script src="/script/scheme/banderole.js"></script>
+
+<script src="/script/bootstarp.js"></script>
+
+
+<div class="backtop syuanpi melt toTop" id="backtop">
+    <i class="iconfont icon-up"></i>
+    <span style="text-align:center;font-family:Georgia;"><span style="font-family:Georgia;" id="scrollpercent">1</span>%</span>
+</div>
+
+
+  <div class="search" id="search">
+    <div class="mask" id="mask"></div>
+    <div class="search-wrapper syuanpi">
+      <h2 id="search-header" class="syuanpi">Give me the keyword</h2>
+      <div class="input">
+        <input type="text" id="local-search-input" results="0" name="">
+      </div>
+      <div id="local-search-result"></div>
+    </div>
+  </div>
+
+
+</body>
+</html>

@@ -1,10 +1,10 @@
 ---
 title: Today Super Computer
-date: 2018-7-27 20:20:00
-category: Definition and History Super Computer
+date: 2010-11-27 20:20:00
+category: supercomputer
 ---
 
-![Ai](/images/1.jpg)
+![](/images/1.jpg)
 
 At any moment, there are many well-publicized supercomputers that operate at extremely high speeds relative to all other computers. The word is also sometimes applied to far slower (but still impressively fast) computer systems. The largest, most strong supercomputers are actually multiple PCs that perform parallel digesting. In general, there will be two parallel processing methods: symmetric multiprocessing (SMP) and massively parallel processing (MPP).
 
@@ -14,6 +14,8 @@ By June 2016, the most effective supercomputer in the world was the Sunway Taihu
 - Peak performance of 125 petaflops (quadrillion floating point procedures per second).
 - 32GB DDR3 memory space per compute node,  1.3 PB memory in total.
 - Linux-based Sunway Raise operating system (OS).
+
+<!-- more -->
 
 Significant supercomputers throughout history:
 - The first commercially successful supercomputer, the CDC (Control Data Corporation) 6600 was created by Seymour Cray. Released in 1964, the CDC 6600 had an individual CPU and cost $8 million - the equivalent of $60 million today. The CDC could handle three million floating level operations per second (flops).

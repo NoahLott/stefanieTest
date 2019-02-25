@@ -1,10 +1,10 @@
 ---
 title: Top Supercomputer
-date: 2018-6-25 20:00:00
-category: Upgrade The Supercomputer
+date: 2018-12-25 20:00:00
+category: recommended of the year
 ---
 
-![Ai](/images/5.jpg)
+![](/images/5.jpg)
 
 ## New GPU-Accelerated Supercomputers Transformation the total amount of Power on the TOP500
 
@@ -13,6 +13,8 @@ For the very first time in history, most of the flops added to the TOP500 list o
 In the latest TOP500 ranks announced this week, 56 percent of the additional flops were due to NVIDIA Tesla GPUs working in new supercomputers - that based on the Nvidians, who love monitoring such things. In this instance, most of those extra flops originated from three top systems not used to the list: Summit, Sierra, and the AI Bridging Cloud Infrastructure (ABCI). 
 
 Summit, the new Best500 champ, pushed the prior number one system, the 93-petaflop Sunway TaihuLight, into second place with a Linpack score of 122.3 petaflops. Summit is powered by IBM servers, each one built with two Power9 CPUs and six V100 GPUs. Regarding to NVIDIA, 95 percent of the Summit's peak performance (187.7 petaflops) comes from the system's 27,686 GPUs.
+
+<!-- more -->
 
 NVIDIA did an identical calculation for the less powerful, and somewhat less GPU-intense Sierra, which nowadays ranks as the 3rd fastest supercomputer on earth at 71.6 Linpack petaflops. And, although nearly the same as Summit, it features four V100 GPUs in each dual-socked Vitality9 node, rather than six. However, the 17,280 GPUs in Sierra still represent the lion's share of this system's flops.
 
