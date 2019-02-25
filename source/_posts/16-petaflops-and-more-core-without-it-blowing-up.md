@@ -44,7 +44,7 @@ Petascale computers have become relatively commonplace because the IBM Roadrunne
 
 But a big progress in price-performance is necessary. Today's technology could level up a lot higher-it merely wouldn't be practical. Supercomputers are naturally pricey (a lot more expensive than the latest MacBook Pro). The K Computer in Japan, for instance, cost a lot more than $1 billion to build and $10 million to operate each year. Livermore informed us it spent approximately $250 million on Sequoia.
 
-We're able to get another order of magnitude with this technology if somebody would compose a check, Turek stated. But no one would want to write that check.î
+We're able to get another order of magnitude with this technology if somebody would compose a check, Turek stated. But no one would want to write that check.‚Äù
 
 ### How to use a good million-core supercomputer-without it blowing up in that person
 _Throwing more cores by science: risky for high reward._
