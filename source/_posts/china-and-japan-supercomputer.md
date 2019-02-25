@@ -42,7 +42,7 @@ Vendors could boost supercomputer performance much more by just creating ever bi
 
 Sadly, name of supercomputing monster is the boring "AI Bridging Cloud Infrastructure."
 
-Japan is reportedly planning to build a 130-petaflops supercomputer costing $173 million (£131 million) that is thanks for completion next season.
+Japan is reportedly planning to build a 130-petaflops supercomputer costing $173 million (Â£131 million) that is thanks for completion next season.
 
 Satoshi Sekiguchi, a director-basic at Japan's ?National Institute of Advanced Industrial Science and Technology, where in fact the computer will be built, told Reuters: "As far as we know, there is little or nothing out there that is as fast."
 
